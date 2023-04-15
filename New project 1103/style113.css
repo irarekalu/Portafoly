@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@import url(./reset.css);
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.conteiner{
+	max-width: 1150px;
+	height: 100%;
+	margin: 0 auto;
+} 
+.header{
+	background-color: #F1F1F1;
+
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+
+}
+.menu_ul{
+	display: flex;
+	column-gap: 50px;
+	margin-top: 60px;
+	font-style: 14px;
+	font-weight: 500;
+}
+.logo{
+	margin-top: 46px;
+	font-style: 32px;
+	font-weight: 700;
+	position: relative;
+}
+.logo:after {
+	content: " ";
+	position: absolute;
+	left: 52px;
+	top: 18px;
+	width: 7px;
+	height: 7px;
+	background-color: #FDA300;
+	border-radius: 50%;
+	display: block;
+}
+.menu_list {
+	position: relative;
+}
+.nav_btn {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 50px;
+	display: none;
+}
+
+/*content start*/
+
+	.content {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 76px;
+	}
+
+	.content_text {
+		max-width: 500px;
+	}
+
+	.content_text h1{
+		font-weight: 600;
+		font-size: 44px;
+		margin-bottom: 20px;
+		margin-top: 203px;
+	}
+
+	.content_text p{
+		font-weight: 400;
+		font-size: 14px;
+	}
+
+/*content end*/
+
+/* service start */
+	.service {
+		margin-top: 90px;
+	}
+	.service_wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	.service_card h1 {
+		font-weight: 600;
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.service_card p {
+		font-weight: 400;
+		font-size: 14px;
+	}
+	.service_card img{
+		margin-bottom: 30px;
+	}
+/* service end */
